@@ -12,6 +12,7 @@ if op == 1:
     frase = input("Escribe la frase>> ")
     autor = input("El nombre del autor es>> ")
     cal = int(input("Dale una calificacion a la frase>> "))
+   
     frase = Agregar(frase,autor,cal,id)
-    frase.agregar_frase
+    frase.agregar_frase()
 

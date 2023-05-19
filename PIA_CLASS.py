@@ -7,6 +7,6 @@ class Agregar():
 
         
     def agregar_frase(self):
-        a = open("frases.txt","a")
-        a.write(f"{self.id_frase} {self.autor} {self.frase} {self.calif}\n")
+        a = open("frases.txt","a",encoding="utf8")
+        a.write(f"ID:{self.id_frase}~~~NOMBRE:{self.autor} ~~~FRASE:{self.frase} ~~~CALIFICACION:{self.calif}\n")
         a.close()
